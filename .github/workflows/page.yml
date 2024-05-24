@@ -1,0 +1,15 @@
+name: Deploy Page
+
+#on:
+#  schedule:
+#    - cron: "10 * * * *"
+
+jobs:
+  name: Pull and Deploy
+  runs-on: ubuntu-latest
+  steps:
+    - name: Pull
+      run: git clone https://github.com/Love-Kogasa/FJST.git
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
