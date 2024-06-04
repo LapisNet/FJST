@@ -2,11 +2,13 @@
 name: FJST Status
 
 on:
-  # Runs on pushes targeting the default branch
+  # 主分支推送触发更新
   push:
     branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
+  # 每天国际时间22:30(北京时间6:30)自动执行一遍
+  schedule:
+    - cron: "30 22 * * *"
+  # 允许手动触发更新
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
