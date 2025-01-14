@@ -1,4 +1,4 @@
 # FJST
-[![FJST Status](https://github.com/FreeDayO/FJST/actions/workflows/static.yml/badge.svg)](https://github.com/FreeDayO/FJST/actions/workflows/static.yml)
+[![FJST Status](https://github.com/LapisNet/FJST/actions/workflows/static.yml/badge.svg)](https://github.com/LapisNet/FJST/actions/workflows/static.yml)
 
-[访问](https://freedayo.github.io/FJST)
+[访问](https://lapisnet.github.io/FJST)
